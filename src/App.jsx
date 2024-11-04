@@ -1,10 +1,18 @@
+import BlurBackground from "./components/BlurBackground"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <>
+      <BlurBackground />
+      <Navbar />
+      <main className="antialiased overflow-x-hidden max-w-7xl mx-auto
+      relative z-10">
+        <Navbar />
+        <Hero />
+      </main>
+    </>
   )
 }
 
