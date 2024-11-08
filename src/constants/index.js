@@ -23,11 +23,11 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Jason Root, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I’m Mohammad Abbasi, a creative frontend developer, crafting immersive and intuitive web experiences.",
   description:
     "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: "/abbasiresumeX.pdf",
 };
 
 export const PROJECTS = [
@@ -159,7 +159,7 @@ export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "jason@example.com",
+  email: "moe.abbasi136262@gmail.com",
   socialLinks: [
     {
       platform: "Twitter",
@@ -180,5 +180,5 @@ export const CONTACT_CONTENT = {
       icon: "RiLinkedinFill",
     },
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} Mohammad Abbasi. All rights reserved.`,
 };

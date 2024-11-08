@@ -1,6 +1,7 @@
 import BlurBackground from "./components/BlurBackground"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       relative z-10">
         <Navbar />
         <Hero />
+        <Projects />
       </main>
     </>
   )
