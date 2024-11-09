@@ -5,18 +5,12 @@ import projects4 from "../assets/projects4.webp";
 import projects5 from "../assets/projects5.webp";
 import projects6 from "../assets/projects6.webp";
 
-import person1 from "../assets/person1.webp";
-import person2 from "../assets/person2.webp";
-import person3 from "../assets/person3.webp";
-import person4 from "../assets/person4.webp";
-import person5 from "../assets/person5.webp";
-import person6 from "../assets/person6.webp";
+
 
 export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -32,35 +26,35 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
+    name: "Coeus",
+    description: "Take a quiz and discover your wild side! This web app is a quiz that will assign you an animal: Bear, Jaguar, Eagle, Dolphin, Sloth, and Cody the Corgi. (Cody is a homage to our Sensei). Answer the twelve questions and discover your animal. Have fun",
     image: projects1,
-    link: "https://github.com/your-github/streamerzz",
+    link: "https://github.com/nbruggeman92/get-wetto",
   },
   {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
+    name: "SoccerSphere HQ",
+    description: "This project is a Soccer Information application that provides current clubs in 5 main europe contries league information and information about their Venue based on the user's search. It utilizes the api-football-v1 and geocode-address-to-location API to retrieve team's info and their venue location on the map based on the teams.",
     image: projects2,
-    link: "https://github.com/your-github/nutritrack",
+    link: "https://github.com/Moe1362/soccer-info",
   },
   {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
+    name: "Groove",
+    description: "Welcome to Groov! A user-friendly tool designed to streamline the creation of playlists, music information search, and music sharing. Whether you're an avid music enthusiast or a casual listener, Groov provides a convenient platform to curate your music experience.",
     image: projects3,
-    link: "https://github.com/your-github/hairrevive",
+    link: "https://github.com/GaviDev8/music-idea",
   },
   {
-    name: "DevDeck",
+    name: "Game Hub",
     description:
-      "Interactive dashboard for developers to track coding activity",
+      "This project is about all console games categories, and users can search the games and filters them by filter options.",
     image: projects4,
-    link: "https://github.com/your-github/devdeck",
+    link: "https://github.com/Moe1362/game-clone",
   },
   {
-    name: "FitConnect",
-    description: "Fitness social network to connect athletes and trainers",
+    name: "Movie-Guide",
+    description: "This App provides functionality for a movie search application using the OMDB API.",
     image: projects5,
-    link: "https://github.com/your-github/fitconnect",
+    link: "https://github.com/Moe1362/movie-guide",
   },
   {
     name: "WellNest",
@@ -79,81 +73,41 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 — Now",
-    title: "Senior Frontend Engineer at TechCorp",
-    location: "Paris, France",
-    description: [
-      "Leading the development of scalable frontend architecture for enterprise-level applications.",
-      "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-      "Driving innovation through continuous improvements in performance and UI/UX design.",
-    ],
-  },
-  {
-    yearRange: "2021 — 2023",
-    title: "Frontend Engineer at Startup Inc.",
+    yearRange: "Apr 2020 — Dec 2023",
+    title: "Front End Developer Freelancer",
     location: "Remote",
     description: [
-      "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
-      "Spearheaded frontend optimization efforts, resulting in a 40% performance boost.",
-      "Mentored junior developers and led internal frontend workshops.",
+      "Developed front-end features for a soccer app using HTML, CSS, JavaScript, and ReactJS.",
+      "Implemented responsive design principles with Bootstrap and media queries for optimal user experience.",
+      "Collaborated closely with the design team, utilizing Git for version control to bring creative vision to life.",
+      "Optimized website performance and resolved issues efficiently using Chrome DevTools.",
     ],
   },
   {
-    yearRange: "2018 — 2021",
-    title: "Frontend Developer at Creative Solutions",
-    location: "London, UK",
+    yearRange: "Jun 2018 — March 2020",
+    title: "Frontend Engineer at BaseHealth.",
+    location: "Sunnyvale, CA",
     description: [
-      "Developed and maintained user interfaces for high-traffic websites.",
-      "Worked closely with designers to implement pixel-perfect designs.",
-      "Optimized websites for SEO and performance, resulting in a 30% increase in traffic.",
+      "Built dynamic, responsive, and accessible web applications using React and Tailwind CSS.",
+      "Built reusable components and front-end libraries for future use in React applications.",
+      "Ensured cross-browser compatibility and responsiveness by thoroughly testing React applications across various devices and browsers.",
+      "Implemented state management using React hooks and Context API to manage application state effectively",
+      "Integrated Chakra UI components to create a consistent and visually appealing user interface.",
+    ],
+  },
+  {
+    yearRange: "May 2017 — May 2018",
+    title: "Full-Stack Developer at ClearLab INC",
+    location: "Menlo Park, CA",
+    description: [
+      "Created clean, precise, cross-browser compatible code using HTML, CSS, and JavaScript.",
+      "Developed site navigation and backend processes with JavaScript and NodeJS.",
+      "Worked in Agile environment with backend engineers and QA to deliver projects on time using Git.",
     ],
   },
 ];
 
-export const TESTIMONIALS = [
-  {
-    name: "Sarah Johnson",
-    title: "Frontend Engineer, Google",
-    feedback:
-      "Jason is one of the most talented developers I've had the pleasure of working with. His skills in frontend development are unparalleled, and his ability to solve complex problems with ease is truly impressive. His leadership and communication make him a standout developer in any team.",
-    image: person1,
-  },
-  {
-    name: "Michael Anderson",
-    title: "Product Manager, Facebook",
-    feedback:
-      "Jason was instrumental in driving our product forward. His keen eye for detail and ability to work cross-functionally made him an invaluable asset. He consistently delivers top-quality work and elevates the projects he's involved in. He’s a natural leader, and his expertise in frontend technologies is outstanding.",
-    image: person2,
-  },
-  {
-    name: "Emily Davis",
-    title: "Lead Designer, Amazon",
-    feedback:
-      "Working with Jason has been a phenomenal experience. His deep understanding of both design and development allowed us to push the boundaries of what we could achieve. His creative problem-solving abilities and commitment to quality are second to none.",
-    image: person3,
-  },
-  {
-    name: "David Lee",
-    title: "Senior Developer, Microsoft",
-    feedback:
-      "Jason's contribution to our team was nothing short of amazing. His technical knowledge, combined with his passion for creating user-friendly and scalable applications, made a significant impact on the success of our product. He’s always willing to go the extra mile to ensure the best outcome.",
-    image: person4,
-  },
-  {
-    name: "Laura Martinez",
-    title: "CTO, Shopify",
-    feedback:
-      "Jason brought a level of expertise and professionalism to our team that was greatly appreciated. His focus on scalability and clean code ensured that our platform could handle large traffic loads without compromising performance. His work ethic and collaboration skills are impeccable.",
-    image: person5,
-  },
-  {
-    name: "Chris Brown",
-    title: "Co-founder, Stripe",
-    feedback:
-      "Jason combines technical proficiency with excellent leadership skills. He was a key part of our success, helping us build a robust and scalable product. His attention to detail and ability to manage teams made him an invaluable part of the company.",
-    image: person6,
-  },
-];
+
 
 export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
