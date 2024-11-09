@@ -27,26 +27,26 @@ export const HERO_CONTENT = {
 export const PROJECTS = [
   {
     name: "Coeus",
-    description: "Take a quiz and discover your wild side! This web app is a quiz that will assign you an animal: Bear, Jaguar, Eagle, Dolphin, Sloth, and Cody the Corgi. (Cody is a homage to our Sensei). Answer the twelve questions and discover your animal. Have fun",
+    description: "Take a quiz and discover your wild side!",
     image: projects1,
     link: "https://github.com/nbruggeman92/get-wetto",
   },
   {
     name: "SoccerSphere HQ",
-    description: "This project is a Soccer Information application that provides current clubs in 5 main europe contries league information and information about their Venue based on the user's search. It utilizes the api-football-v1 and geocode-address-to-location API to retrieve team's info and their venue location on the map based on the teams.",
+    description: "This project is a Soccer Information application that provides current clubs in 5 main europe contries league information.",
     image: projects2,
     link: "https://github.com/Moe1362/soccer-info",
   },
   {
     name: "Groove",
-    description: "Welcome to Groov! A user-friendly tool designed to streamline the creation of playlists, music information search, and music sharing. Whether you're an avid music enthusiast or a casual listener, Groov provides a convenient platform to curate your music experience.",
+    description: "Welcome to Groov! A user-friendly tool designed to streamline the creation of playlists.",
     image: projects3,
     link: "https://github.com/GaviDev8/music-idea",
   },
   {
     name: "Game Hub",
     description:
-      "This project is about all console games categories, and users can search the games and filters them by filter options.",
+      "This project is about all console games categories.",
     image: projects4,
     link: "https://github.com/Moe1362/game-clone",
   },
@@ -56,12 +56,7 @@ export const PROJECTS = [
     image: projects5,
     link: "https://github.com/Moe1362/movie-guide",
   },
-  {
-    name: "WellNest",
-    description: "A wellness app for mental and physical health improvement",
-    image: projects6,
-    link: "https://github.com/your-github/wellnest",
-  },
+  
 ];
 
 export const ABOUT_CONTENT = {
@@ -117,19 +112,19 @@ export const CONTACT_CONTENT = {
   socialLinks: [
     {
       platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
+      url: "https://x.com/mohammad_a55922",
       ariaLabel: "Follow me on Twitter",
       icon: "RiTwitterXFill",
     },
     {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/Moe1362",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/moeabbasi1983/",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },
