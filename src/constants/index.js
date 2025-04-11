@@ -15,7 +15,7 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hey there! 🖐️",
+  greeting: "Welcome to my portfolio",
   introduction:
     "I’m Mohammad Abbasi, a creative frontend developer, crafting immersive and intuitive web experiences.",
   description:
