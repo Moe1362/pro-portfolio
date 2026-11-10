@@ -21,7 +21,7 @@ export const HERO_CONTENT = {
   description:
     "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/MohammadCV.pdf",
+  resumeLink: "/Mohammad AbbasiResume.pdf",
 };
 
 export const PROJECTS = [
