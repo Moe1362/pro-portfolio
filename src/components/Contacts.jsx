@@ -66,6 +66,25 @@ const Contacts = () => {
       >
         {CONTACT_CONTENT.email}
       </motion.a>
+      <motion.a
+        href={`tel:${CONTACT_CONTENT.phone.replace(/[^\d+]/g, '')}`}
+        className="text-xl md:text-2xl mt-4"
+        initial="hidden"
+        whileInView="visible"
+        custom={0.9}
+        variants={textVariants}
+      >
+        {CONTACT_CONTENT.phone}
+      </motion.a>
+      <motion.p
+        className="text-base md:text-lg text-stone-300 mt-2"
+        initial="hidden"
+        whileInView="visible"
+        custom={0.9}
+        variants={textVariants}
+      >
+        {CONTACT_CONTENT.location}
+      </motion.p>
       <div className="flex space-x-6 mt-8">
         {CONTACT_CONTENT.socialLinks.map((link, index) => {
           const Icon =

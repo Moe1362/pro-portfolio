@@ -15,17 +15,17 @@ const Navbar = () => {
                 md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg transition-all duration-300">
                 
                 {/* Brand Name */}
-                <div className="text-white font-semibold text-4xl uppercase transition-colors hover:text-yellow-400">
+                <div className="text-white font-semibold text-2xl lg:text-4xl uppercase transition-colors hover:text-yellow-400">
                     <a href="/">Mohammad Abbasi</a>
                 </div>
                 
                 {/* Desktop Links */}
-                <div className="hidden md:flex space-x-8 text-xl">
+                <div className="hidden md:flex space-x-4 lg:space-x-6">
                     {LINKS.map((link, index) => (
-                        <a 
-                            href={link.href} 
-                            key={index} 
-                            className="text-white  hover:text-yellow-400 text-2xl transition duration-300"
+                        <a
+                            href={link.href}
+                            key={index}
+                            className="text-white  hover:text-yellow-400 text-base lg:text-xl transition duration-300"
                             style={{
                                 textShadow: "0px 0px 6px rgba(255, 215, 0, 0.6)",
                             }}

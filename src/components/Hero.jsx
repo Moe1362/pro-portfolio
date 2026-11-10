@@ -55,6 +55,18 @@ const Hero = () => {
             {HERO_CONTENT.greeting}
           </motion.h1>
           <motion.p
+            className="text-lg md:text-xl lg:text-2xl font-semibold text-yellow-400 mb-2"
+            variants={textVariants}
+          >
+            {HERO_CONTENT.headline}
+          </motion.p>
+          <motion.p
+            className="text-sm md:text-base text-stone-300 mb-8"
+            variants={textVariants}
+          >
+            {HERO_CONTENT.location}
+          </motion.p>
+          <motion.p
             className="text-xl md:text-2xl lg:text-4xl mb-4"
             variants={textVariants}
           >
