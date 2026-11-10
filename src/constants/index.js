@@ -3,7 +3,6 @@ import projects2 from '../assets/projects2.webp';
 import projects3 from '../assets/projects3.webp';
 import projects4 from '../assets/projects4.webp';
 import projects5 from '../assets/projects5.webp';
-import projects6 from '../assets/projects6.webp';
 
 export const LINKS = [
   { href: '#about', label: 'About' },
@@ -97,7 +96,15 @@ export const SKILLS = [
   },
   {
     category: 'Back-End & APIs',
-    items: ['Node.js', 'Express', 'Java', 'Python', 'RESTful services', 'GraphQL', 'MERN stack'],
+    items: [
+      'Node.js',
+      'Express',
+      'Java',
+      'Python',
+      'RESTful services',
+      'GraphQL',
+      'MERN stack',
+    ],
   },
   {
     category: 'Databases',
@@ -109,11 +116,22 @@ export const SKILLS = [
   },
   {
     category: 'Performance & Quality',
-    items: ['Code splitting', 'Lazy loading', 'Asset optimization', 'Chrome DevTools profiling'],
+    items: [
+      'Code splitting',
+      'Lazy loading',
+      'Asset optimization',
+      'Chrome DevTools profiling',
+    ],
   },
   {
     category: 'Workflow',
-    items: ['Git', 'GitHub', 'Agile/Scrum', 'Requirements gathering', 'Stakeholder communication'],
+    items: [
+      'Git',
+      'GitHub',
+      'Agile/Scrum',
+      'Requirements gathering',
+      'Stakeholder communication',
+    ],
   },
   {
     category: 'Systems & Hardware',
